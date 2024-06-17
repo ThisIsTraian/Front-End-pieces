@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <a href="#home">Despre Mine</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h2>Despre mine</h2>
+        <table>
+          <tr>
+            <td>
+              <img
+                src="images/ElenaCotar.jpg"
+                alt="Elena Danilova"
+                width="250" />
+            </td>
+            <td>
+              <p>Salut, mă numesc</p>
+              <h3>Elena Danilova</h3>
+              <p>sunt Software Developer</p>
+              <p>
+                Sunt software developer la Orange Systems, cu specializarea în
+                Conversion Rate Optimization (CRO) development. Lucrez la un
+                proiect din Marea Britanie (telecomunicaţii) cu o echipă de
+                dezvoltatori web și designeri în misiunea de a crea experiențe
+                web captivante și accesibile, care răspund nevoilor și
+                așteptările utilizatorilor și clienților.
+              </p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <p>
+          Sunt software developer la Orange Systems, cu specializarea în
+          Conversion Rate Optimization (CRO) development. Lucrez la un proiect
+          din Marea Britanie (telecomunicaţii) cu o echipă de dezvoltatori web
+          și designeri în misiunea de a crea experiențe web captivante și
+          accesibile, care răspund nevoilor și așteptările utilizatorilor și
+          clienților.
+        </p>
+        <h3>Here is a list of my <strong>hard skills:</strong></h3>
+        <ul>
+          <li>HTML/CSS</li>
+          <li>JavaScript</li>
+          <li>CRO Development</li>
+          <li>A/B optimization</li>
+          <li>GoogleTagManager</li>
+          <li>React.js</li>
+        </ul>
+        <h3>Here is a list of my <strong>soft skills:</strong></h3>
+        <ul>
+          <li>3 limbi vorbite: Româna, Engleza, Rusa</li>
+          <li>Managementul timpului</li>
+          <li>Gândire creativă</li>
+          <li>Învăţare continuă</li>
+        </ul>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+          mattis mauris lacus, tincidunt viverra velit pulvinar ut. Aliquam eu
+          eros eget magna imperdiet euismod. Aenean molestie elementum quam, a
+          scelerisque lorem. Ut quis elit ac massa cursus euismod. Nulla
+          accumsan leo in diam rutrum posuere. Mauris semper imperdiet nibh non.
+        </p>
+        <h3>Here are some of my projects:</h3>
+        <table>
+          <thead>
+            <th>Website projects</th>
+            <th>MobileApps projects</th>
+            <th>React projects</th>
+          </thead>
+          <tr>
+            <td>
+              <img
+                src="images/Website3.png"
+                alt="website-project1"
+                width="200" />
+            </td>
+            <td>
+              <img
+                src="images/website4.png"
+                alt="website-project1"
+                width="200" />
+            </td>
+            <td>
+              <img
+                src="images/website5.png"
+                alt="website-project1"
+                width="200" />
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section id="contact">
+        <h2>Contacte</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit
+          amet feugiat libero. Sed condimentum hendrerit pretium. Duis velit
+          erat, interdum at lorem vitae, laoreet tincidunt dolor. Nulla
+          facilisis enim a mi ultrices sagittis. Praesent nec augue in lectus
+          tristique lacinia sed ut dui. Duis.
+        </p>
+        <p>
+          <img src="images/person-icon.png" alt="person icon" width="40" />Elena
+          Danilova, 069198397
+        </p>
+        <p>
+          <img src="images/pin-icon.png" alt="pin icon" width="40" />Chişinău,
+          Moldova
+        </p>
+        <p>
+          <img
+            src="images/email-icon.png"
+            alt="email icon"
+            width="40" />elena.danilova@orange.com
+        </p>
+        <form>
+          <h3>Scrieţi-mi un mesaj:</h3>
+          <input name="name" placeholder="Numele*" required />
+          <input
+            name="tel"
+            type="number"
+            placeholder="Tel:*"
+            required
+            minlength="9" />
+          <input name="email" type="email" placeholder="Email*" required />
+          <br /><br />
+          <lable for="motiv">De ce doriţi să mă contactaţi:</lable><br /><br />
+          <select name="motiv">
+            <option value="">--Selectaţi o opţiune--</option>
+            <option value="interviu">Interviu</option>
+            <option value="job offer">Job Offer</option></select
+          ><br /><br />
+          <textarea
+            name="mesaj"
+            placeholder="Detalii"
+            cols="60"
+            rows="5"></textarea>
+          <br /><br />
+          <button>Trimite</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <hr />
+      &copy; 2024 My Portfolio. All rights reserved.<img
+        src="images/orange systems logo.png"
+        alt="orange systems logo"
+        width="90" />
+    </footer>
+  </body>
+</html>
