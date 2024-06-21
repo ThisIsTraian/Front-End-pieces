@@ -1,0 +1,40 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+ */
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  scr: url('Montserrat-Light.ttf');
+  format ('true-type');
+}
+element.style {
+    font-family: "Montserrat", sans-serif;
+    scr: url('Montserrat-Light.ttf');
+    format ('true-type');
+}
+/* <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css"> */
+p {
+    text-align: justify;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color:  #370050;
+}
+h1 {
+    text-decoration: solid underline overline;
+}
+a{
+    color: #0e2e2283;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+button{
+    font-style: normal;
+    text-decoration: #026513;
+    font-weight: bold;
+}
