@@ -1,7 +1,7 @@
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
  */
-@font-face {
+/* @font-face {
   font-family: "Montserrat", sans-serif;
   scr: url('Montserrat-Light.ttf');
   format ('true-type');
@@ -20,21 +20,96 @@ p {
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    color:  #370050;
+    /* color:  #370050; */
 }
 h1 {
     text-decoration: solid underline overline;
 }
 a{
-    color: #0e2e2283;
+    color: #00ffa2af;
     text-transform: uppercase;
     text-decoration: none;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #28eefcf1;
+    font-weight:bold;
 }
 ul{
     list-style-type: none;
 }
 button{
-    font-style: normal;
+    font-style: inherit;
     text-decoration: #026513;
     font-weight: bold;
+}
+button:hover {
+    font-weight:bolder;
+    color: #00925d;
+}
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic typography */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+} */
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation menu */
+nav {
+    background-color: #444;
+    padding: 0.5rem;
+    /* position:fixed;
+    top: 0;
+    left: 0; */
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation a {
+    margin-right: 50px;
+}
+/* Main content area */
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.1rem;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
 }
