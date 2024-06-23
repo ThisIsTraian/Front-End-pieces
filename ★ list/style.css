@@ -1,0 +1,80 @@
+.table-name {
+    position: top;
+    top: 0;
+    left: 0;
+    background-color: #f0f0f0; /* Optional: background color for the table name */
+    font-weight: bold;
+  }
+  body {
+      font-family: "Quicksand", sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      color: #2F0745;
+      padding: 0;
+  }
+  
+  .table-container {
+      background-color: white;
+      overflow: hidden;
+  }
+  
+  table {
+      border-collapse: 0.0625em; /* 1px = 0.0625em */
+      border-color: #13AC38;
+      text-align: center;
+      justify-content: stretch;
+  }
+  
+  th, td {
+      padding: 0.75em 0.9375em; /* 12px = 0.75em, 15px = 0.9375em */
+      text-align: center;
+  }
+  
+  th {
+      color: #2F0745;
+      text-align: center;
+  }
+  
+  td {
+      color: #2F0745;
+      text-align: center;
+  }
+  
+  .actor-name {
+      color: #2F0745;
+      cursor: pointer;
+      text-decoration: none;
+      text-align: center;
+  }
+  
+  .actor-img {
+      align-items: center;
+      max-width: 6.25em; /* 100px = 6.25em */
+      border-radius: 0.0625em; /* 1% of 100px = 0.0625em */
+  }
+  
+  .more-info-btn {
+      padding: 0.5em 1em; /* 8px = 0.5em, 16px = 1em */
+      background-color: #009714b9; /* #13AC38 */
+      color: white;
+      border: none;
+      border-radius: 0.25em; /* 4px = 0.25em */
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+  
+  
+  .more-info-btn:hover {
+      background-color: #2f074593;
+  }
+  a:-webkit-any-link {
+      color:#2F0745;
+      cursor: pointer;
+      text-decoration: none;
+  }
+  a:hover {
+      color: #c70303c5;
+    }
