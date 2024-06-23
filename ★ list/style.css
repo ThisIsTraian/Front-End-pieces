@@ -29,7 +29,7 @@
   }
   
   th, td {
-      padding: 0.75em 0.9375em; /* 12px = 0.75em, 15px = 0.9375em */
+      padding: 0.5em 1em; /* 12px = 0.75em, 15px = 0.9375em */
       text-align: center;
   }
   
@@ -51,9 +51,10 @@
   }
   
   .actor-img {
+    filter: brightness(80%) contrast(120%) saturate(110%);
       align-items: center;
       max-width: 6.25em; /* 100px = 6.25em */
-      border-radius: 0.0625em; /* 1% of 100px = 0.0625em */
+      border-radius: 0.2em; /* 1% of 100px = 0.0625em */
   }
   
   .more-info-btn {
