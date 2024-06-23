@@ -35,3 +35,4 @@ document.addEventListener('DOMContentLoaded', function() {
         newImg.src = imgSrc; // This triggers the loading process
     });
 });
+

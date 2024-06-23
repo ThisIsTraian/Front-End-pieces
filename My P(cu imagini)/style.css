@@ -92,7 +92,9 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
-
+.navbar a {
+    margin-right: 0.6em;
+}
 .navigation a {
     margin-right: 50px;
 }
