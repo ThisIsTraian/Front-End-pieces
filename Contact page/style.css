@@ -178,8 +178,12 @@ span.labelText{
     width: 100%; /* Ensure textarea takes full width */
     height: 15em; /* Example height; adjust as needed */
     padding: 0px;
+    color: white;
      /* Example padding; adjust as needed */
      /* Ensure padding doesn't add to width */
+}
+.textArea:hover {
+    color: white;
 }
 
 .submitButton {
@@ -190,13 +194,12 @@ span.labelText{
     background-color: #007bff; /* Example background color */
     color: #ffffff; /* Example text color */
     border: 1px solid transparent; /* Remove default border */
+    border-radius: 0.3em;
     cursor: pointer; /* Ensure cursor changes on hover */
 }
 
 .submitButton:hover {
-    padding: 1em;
     background-color: #fbff00;
     color: black; 
-    border-radius: 1px;
     border-color: black;/* Example darker color on hover */
 }
