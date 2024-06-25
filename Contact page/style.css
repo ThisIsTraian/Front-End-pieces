@@ -1,0 +1,202 @@
+body.contact-page {
+    font-family: 'Times New Roman', sans-serif;
+    background-color: #c5a8e0;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    text-align: center;
+    background-color: inherit;
+    color: white;
+    padding: 1%;
+    
+    
+}
+
+header h1 {
+    margin: 0;
+}
+
+#mainContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formContainer {
+    background: white;
+    padding-right: 4%;
+    padding-left: 4%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 65%;
+    
+}
+
+.formWrapper {
+    margin: 0;
+    
+}
+
+.formSection {
+    padding: 3%;
+    
+}
+
+.formContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm .inputGroup {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.inputField {
+    display: flex;/* Use flexbox for layout */
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.inputLabel {
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.labelText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.textInput, .textArea, .selectButton {
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #c79fe8;
+}
+
+
+
+
+.selectContainer {
+    position: relative;
+}
+
+.selectButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    cursor: pointer;
+    display: flex; /* Use flexbox for layout */
+    justify-content: flex-end;
+}
+.buttonContainer {
+    display: flex; /* Use flexbox for layout */
+    justify-content: flex-end; /* Align button to the end of the container */
+}
+
+.selectText {
+    flex: 1;
+    text-align: center;
+}
+.submitButton {
+    width: 100%; /* Button width adjusts to its content by default */
+    padding: 10px;
+    border-radius: 0.4em;
+    border-color: transparent; 
+     /* Use flexbox for layout */
+    justify-content: center;
+}
+
+.selectArrow {
+    display: flex;
+    align-items: center;
+}
+
+.arrowIcon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid currentColor;
+    content: "";
+}
+
+.selectOptions {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border
+}
+
+.contactForm .inputGroup {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+#country.textInput, #address.textInput{
+    background-color: #a25ce0;
+    color:  whitesmoke;
+}
+textarea#description.textArea {
+    background-color: #8531d1;
+    resize: vertical;
+}
+
+button.submitButton{
+    background-color: #410179;
+    color: whitesmoke;
+    font-weight: bold;
+}
+span.labelText{
+    color: #410179;
+}
+::placeholder{
+    color: whitesmoke;
+}
+.inputField {
+    margin-bottom: 1em; /* Example margin between fields */
+}
+
+.textArea {
+    width: 100%; /* Ensure textarea takes full width */
+    height: 15em; /* Example height; adjust as needed */
+    padding: 0px;
+     /* Example padding; adjust as needed */
+     /* Ensure padding doesn't add to width */
+}
+
+.submitButton {
+    padding: 1em;
+    width: 100%; /* Make the button full width */
+    padding: 10px; /* Example padding; adjust as needed */
+    margin-top: 1em; /* Example margin to space it from above field */
+    background-color: #007bff; /* Example background color */
+    color: #ffffff; /* Example text color */
+    border: 1px solid transparent; /* Remove default border */
+    cursor: pointer; /* Ensure cursor changes on hover */
+}
+
+.submitButton:hover {
+    padding: 1em;
+    background-color: #fbff00;
+    color: black; 
+    border-radius: 1px;
+    border-color: black;/* Example darker color on hover */
+}
