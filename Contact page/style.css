@@ -203,3 +203,9 @@ span.labelText{
     color: black; 
     border-color: black;/* Example darker color on hover */
 }
+
+
+.option span {
+    width: 12px;
+    height: 9px;
+  }

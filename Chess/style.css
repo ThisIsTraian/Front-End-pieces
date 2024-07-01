@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  table {
+    margin: 20px auto;
+  }
+
+  th {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    font-size: 24px;
+  }
+  tr {
+    align-items: center;
+  }
+
+  .white {
+    background-color: #f0d9b5;
+  }
+
+  .black {
+    background-color: #b58863;
+  }
+
+  
+  .label {
+    font-weight: bold;
+  }
+
+  .center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
