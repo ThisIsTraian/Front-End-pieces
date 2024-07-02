@@ -1,0 +1,87 @@
+body, html {
+    font-size: large;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    overflow: hidden;
+  }
+
+  canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Ensure canvas is behind other elements */
+  }
+
+  .centered {
+    position: absolute;
+  }
+.more-info-btn {
+    padding: 0.5em 1em; /* 8px = 0.5em, 16px = 1em */
+    background-color: #002fa7b0; /* #13AC38# */
+    color: white;
+    border: none;
+    border-radius: 0.375em; /* 4px = 0.25em */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 24px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;    
+}
+button.more-info-btn {
+    position: relative;
+    z-index: 10; /* Ensure the button is above other elements */
+}
+.more-info-btn:on-click { background-color: #002fa7b0; }
+.more-info-btn::before { background-color: #002fa7b0; }
+.more-info-btn:hover { background-color: #2f074593; }
+
+#waterContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Total height of all three layers */
+    overflow: hidden;
+}
+
+.waterLayer {
+    z-index: 4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px; /* Height of each water layer */
+    background-color: #3498db69; /* Blue color for water */
+    clip-path: polygon(0 100%, 100% 100%, 100% 50%, 0 50%);
+    animation: wave 2s ease-in-out infinite alternate; /* Wave animation */
+}
+
+.waterLayer:nth-child(2) {
+    background-color: #2980b969; /* Darker blue for second layer */
+    z-index: 2;
+}
+
+.waterLayer:nth-child(3) {
+    background-color: #1f618d69; /* Even darker blue for third layer */
+    z-index: 3;
+}
+
+
+@keyframes wave {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(+10px); /* Adjust this value for wave height */
+    }
+}

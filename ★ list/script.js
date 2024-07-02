@@ -39,7 +39,8 @@ function addRandomButton(clickedButton) {
     newButton.style.fontSize = computedStyle.fontSize;
     newButton.style.padding = computedStyle.padding;
     newButton.style.margin = computedStyle.margin;
-    newButton.style.border = computedStyle.border; // Optional: inherit border style
+    newButton.style.border = computedStyle.border;
+   // Optional: inherit border style
     
     // Generate random positions within the window dimensions
     const randomLeft = Math.random() * (window.innerWidth - newButton.clientWidth);
