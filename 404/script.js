@@ -21,9 +21,6 @@ function addRandomButton(clickedButton) {
     newButton.style.appearance = computedStyle.appearance;
     newButton.style.zIndex = computedStyle.zIndex;
     newButton.onclick = computedStyle.onclick;
-    newButton.style.lineBreak = computedStyle.lineBreak;
-    newButton.style.whiteSpace = computedStyle.whiteSpace;
-    newButton.style.textAlign = computedStyle.textAlign;
 
     // Generate random positions within the window dimensions
     const randomLeft = Math.random() * (window.innerWidth + 200) - 100; // Offset by 100 pixels to the left or right
@@ -70,7 +67,7 @@ function autoClickMoreInfoButton() {
     setInterval(function() {
         const moreInfoButton = document.querySelector('.more-info-btn');
         moreInfoButton.click(); // Trigger click on the button
-    }, 10000);
+    }, 60000);
 }
     // Call the auto-click function when the page loads
 window.onload = function() {
