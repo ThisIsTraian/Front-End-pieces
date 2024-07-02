@@ -8,25 +8,17 @@ body {
   background-color: #d7cfc2;
 }
 
-.label {
-  font-weight: bold;
-}
+.white { background-color: #f0d9b5; }
 
-.white {
-  background-color: #f0d9b5;
-}
-
-.black {
-  background-color: #b58863;
-}
+.black { background-color: #b58863; }
 
 !important .chessboard { border-spacing: 1; border-collapse: collapse; }
-            .chessboard th { padding: .5em; }
-            .chessboard td { border: 1px solid black;} 
+            .chessboard th { padding: 0.5em; }
+            .chessboard td { border: 1px solid black; padding: 0;} 
             .chessboard td { width: 2em; height: 2em; text-align: center;}
-            .chessboard td { font-size: 2em; line-height: 0; }
-            .chessboard tr th { border: none }
-            .chessboard td:hover {background-color: white}
+            .chessboard td { font-size: 2.3em; line-height: 0; }
+            .chessboard tr th { border: none}
+            .chessboard td:hover {background-color: white; color: #b58863;}
             .chessboard .neagră:hover::after {
               content: attr(data-name);
               position:absolute;
