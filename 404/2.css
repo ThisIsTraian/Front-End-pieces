@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #050014; /* dark background */
+    color: rgba(255, 255, 255, 0.925); /* text color */
+    font-family: Arial, sans-serif;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title {
+    z-index: -10;
+    font-size: 2.4em;
+    text-shadow: 0 0 110px rgb(255, 255, 0); /* slight glow with yellow tint */
+
+}
+
+div.sphere {
+    shape-rendering: geometricPrecision;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+#orbit-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+}

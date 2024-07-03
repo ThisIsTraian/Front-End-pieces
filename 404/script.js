@@ -67,7 +67,7 @@ function autoClickMoreInfoButton() {
     setInterval(function() {
         const moreInfoButton = document.querySelector('.more-info-btn');
         moreInfoButton.click(); // Trigger click on the button
-    }, 60000);
+    }, 10000);
 }
     // Call the auto-click function when the page loads
 window.onload = function() {
