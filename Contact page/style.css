@@ -178,6 +178,7 @@ button.submitButton{
 span.labelText{
     color: #410179;
 }
+
 ::placeholder{
     color: whitesmoke;
 }
@@ -186,9 +187,9 @@ span.labelText{
 }
 
 .textArea {
-    width: 100%; /* Ensure textarea takes full width */
+    width: auto; /* Ensure textarea takes full width */
     height: 15em; /* Example height; adjust as needed */
-    padding: 0px;
+    
     color: white;
      /* Example padding; adjust as needed */
      /* Ensure padding doesn't add to width */

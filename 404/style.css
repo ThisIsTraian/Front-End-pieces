@@ -68,12 +68,12 @@ button.more-info-btn {
 
 .waterLayer:nth-child(2) {
     background-color: #2980b969; /* Darker blue for second layer */
-    z-index: 2;
+    z-index: 4;
 }
 
 .waterLayer:nth-child(3) {
     background-color: #1f618d69; /* Even darker blue for third layer */
-    z-index: 3;
+    z-index: 4;
 }
 
 
