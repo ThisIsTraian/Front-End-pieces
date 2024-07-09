@@ -1,0 +1,139 @@
+body {
+    font-family: "Arian", sans-serif;
+    color: #484848;
+}
+.card-container {
+max-width: 1100px;
+margin: 20px auto;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 30px;
+}
+body h1 {
+    text-align: center;
+    color: #484848;
+}
+
+.card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+@media (max-width: 1100px) {
+    .card {
+        width: calc(50% - 20px); /*smaller screens */
+    }
+}
+.card-inner-container{
+
+    display: flex;
+    flex-direction: column;
+}
+img {
+    display: flex;
+    justify-content: center;
+}
+.img img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: -75px;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.img img:hover {
+    transform: translate3d(0, -5px, 0);
+    transition: transform 0.35s;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+}
+.film-info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #3f9489;
+    border-top: 1px solid #3f9489;
+}
+.award {
+    display: flex;
+    justify-content: space-between;
+}
+.award .award_avatar img {
+    width: 30px;
+    mix-blend-mode: multiply;
+    shape-image-threshold: 100;
+    object-fit: cover;
+    
+}
+.film-logo img {
+    width: 90px;
+    height: 131px;
+}
+.film-description {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: flex-end;
+    text-align: center;
+}
+.imdb {
+    align-self: flex-end;
+    margin-top: 20px;
+}
+.imdb svg {
+    height: 25px;
+}
+.award_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 14px;
+    line-height: 0;
+    padding-left: 2em;
+    margin: 0;
+}
+.rating {
+    font-size: 18px; /* Adjust font size as needed */
+    color: transparent; /* Hide text content */
+    display: inline-block;
+    position: center;
+    color: #e5af0e;
+}
+.actor-content{
+    color: #484848;
+}
+
+.grey {
+color: #484848;
+}
+.red {
+color: #ef5350;
+}
+.blue {
+color: #0277bd;
+}
+.orange {
+color: #fd6b0d;
+}
+.yellow {
+color:
+#e5af0e;
+}
+.green {
+color: #2e7d32;
+}
+.cyan {
+color:#3f9489;
+}
+.borders {
+color: cadetblue;}
