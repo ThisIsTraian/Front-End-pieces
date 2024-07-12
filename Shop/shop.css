@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+body, html{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-image: url('void/header-background.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+header h1 {
+    background-color:#ffffff80;
+    padding: 70px;
+    font-family: 'Berkshire Swash', serif;
+    
+}
+h4 {
+    font-size: small;
+    font-family: 'Roboto Slab';
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+h5 {
+    font-weight: 400;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+h6 {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 70px auto;
+}
+.product-card {
+    flex-basis: 350px;
+    margin: 0 auto 70px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:column;
+}
+img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+.product-badge {
+    width: 20%;
+    background-color: orange;
+    color: white;
+    align-self: flex-end;
+    border-radius: 5px;
+    margin: -10px -10px -19px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+}
+.product-details {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .product-details div h5{
+     font-weight: bolder;
+ }
+ .product-price {
+     font-size: large;
+     font-weight: 700;
+     align-self: flex-end;
+ }
+ .product-price span {
+     font-family: 'Berkshire Swash', serif;
+     font-size: 35px;
+     position: relative;
+ }
+ .product-price span:hover::after {
+    content: attr(data-name);
+    position:absolute;
+    top: 0%;
+    left: 0;
+    background-color: white;
+    color: black;
+    text-align: center;   
+    border: 1px transparent orange;
+    width: 100%;
+    border-radius: 3px;
+    z-index: 1; 
+    white-space: nowrap;
+ }
+ 
+ .star-rating {
+     font-weight: lighter;
+     margin-top: 0.3em;
+     margin-bottom: 0.3em;
+     position: relative;
+   }  
+   .star {
+     font-weight: bolder;
+     display: inline;
+     color: orange;
+   }
+   .star-half {
+     content: '\2B50';
+     position: relative;
+     font-family: 'Arial';
+     display: inline;
+     width: 100%;
+     color: lightgrey;
+   }
+   .star-half::after {
+     content: '\2605';
+     position: absolute;
+     left: 0;
+     overflow: hidden;
+     width: 50%;
+     color: orange;
+   }
+.product-options {
+    display: flex;
+    justify-content: space-between;
+   }
+   .option {
+    display: flex;
+    flex-direction: column;
+   }
+   .option h5 {
+    margin-bottom: 8px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline;
+    width: 10%;
+}
+
+.dropdown-toggle {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 150px; /* Adjust width of the dropdown */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown.active .dropdown-content {
+    display: block;
+}
+
+
+.size-selector {
+    display:inline;
+    align-items: space-between;
+    border-radius: 3px;
+    font-size: xx-small;
+}
+
+.size-btn {
+    
+    background-color: #3498db;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.66rem;
+    margin: 1px;
+    width:fit-content;
+    height: 100%;
+}
+
+.size-input {
+    width: 40px; /* Adjust width of the input field */
+    height: 100%;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: 0.66rem;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+.add-to-cart { 
+   cursor: pointer; 
+   padding: 10px;
+   margin-top: 40px; 
+   background-color: #f39c12;
+   border-radius: 5px; 
+   border: none; 
+   color: white;  
+   font-weight: bold; 
+   font-size: 20px;
+   text-align: center;
+   }
+   .add-to-cart:hover { 
+       transform: scale(1.02);   
+       background-color: #e5af0e;
+       }
+         
+
+ 
