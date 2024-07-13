@@ -10,43 +10,213 @@
     <header>
         <h1>Magazin de încălţăminte</h1>
     </header>
-    <div class="container">
-        <div class="product-card">
-            <div class="product-badge"><h6>Popular</h6></div>
-            <div><img src="void/sandale cu fundita.jpg" alt="JIMMY CHOO
-            AVELINE 100 PINK SATIN SANDALS WITH BOWS 949 €">
-            </div>
-            <div class="product-details">
-                <h4>Sandal cu fundita asimetrica</h4>
-                <h5>Alege cele mai in voga ghete din aceasta vara. Filind din piele naturata iti va oferi comportul dorit. Disponibili in culorile: roz, mint, gri-orange.</h5>
-                <div class="product-price"><h5>Pret: <span data-name="949 €">$159.99</span></h5></div>
-                <div class="star-rating">
-                    <h5>Star-rating: <span class="star">&#9733;&#9733;&#9733;&#9733;<span class="star-half">&#9733;</span></span> 4.5</h5>
+    <main>
+        <h2>Cele mai noi produse</h2>
+        <div class="container">
+            <div class="product-card">
+                <div class="product-badge"><h6>-10%</h6></div>
+                <div class="product-image-container">
+                    <img class="product-image" src="void/balerini-irka.jpg" alt="Balerini Irka">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                    </div>
                 </div>
-                <div class="product-options">
-                    <div class="option">
-                        <h5>Culoare:</h5>
-                        <div class="dropdown">
-                            <button class="dropdown-toggle" id="color-dropdown"></button>
-                            <div class="dropdown-content" id="color-dropdown-content">
-                                <a href="#">Alb</a>
-                                <a href="#">Negru</a>
-                                <a href="#">Roșu</a>
-                                <a href="#">Albastru</a>
+                <div class="product-details">
+                    <h4>Balerini colorati</h4>
+                    <h5>Alege cele mai in voga ghete din aceasta vara. Filind din piele naturata iti va oferi comportul dorit. Disponibili in culorile: roz, mint, gri-orange.</h5>
+                    <div class="product-price"><h5>Pret: <span data-name="">$29.99</span></h5></div>
+                    <div class="star-rating">
+                        <h5>Star-rating: <span class="star">&#9733;&#9733;&#9733;&#9733;<span class="star-half">&#9733;</span></span> 4.5</h5>
+                    </div>
+                    <div class="product-options">
+                        <div class="option">
+                            <h5>Culoare:</h5>
+                            <div class="custom-dropdown">
+                                <button class="dropdown-toggle">Rosu<span class="arrow-down"></span></button>
+                                <div class="dropdown-content">
+                                    <a href="#" data-value="roz">Roz</a>
+                                    <a href="#" data-value="mint">Mint</a>
+                                    <a href="#" data-value="gri-orange">Gri-Orange</a>
+                                </div>
+                                <input type="hidden" id="color2" name="color2">
+                            </div>
+                        </div>
+                        <div class="option">
+                            <h5>Mărime:</h5>
+                            <div class="size-selector">
+                                <button class="size-btn">-</button>
+                                <input type="text" class="size-input" value="41">
+                                <button class="size-btn">+</button>
                             </div>
                         </div>
                     </div>
-                    <div class="option">
-                        <h5>Mărime:</h5>
-                        <div class="size-selector">
-                            <button class="size-btn">-</button>
-                            <input type="text" class="size-input" value="1">
-                            <button class="size-btn">+</button>
-                        </div>
+                    <div class="add-to-cart">Cumpără</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-badge"><h6>Popular</h6></div>
+                <div class="product-image-container">
+                    <img class="product-image" src="void/sandale cu fundita.jpg" alt="JIMMY CHOO AVELINE 100 PINK SATIN SANDALS WITH BOWS 949 €">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
                     </div>
                 </div>
-                <div class="add-to-cart">Cumpără</div>
+
+                <div class="product-details">
+                    <h4>Sandal cu fundita asimetrica</h4>
+                    <h5>Alege cele mai in voga ghete din aceasta vara. Filind din piele naturata iti va oferi comportul dorit. Disponibili in culorile: roz, mint, gri-orange.</h5>
+                    <div class="product-price"><h5>Pret: <span data-name="949.00€">$159.99</span></h5></div>
+                    <div class="star-rating">
+                        <h5>Star-rating: <span class="star">&#9733;&#9733;&#9733;&#9733;<span class="star-half">&#9733;</span></span> 4.5</h5>
+                    </div>
+                    <div class="product-options">
+                        <div class="option">
+                            <h5>Culoare:</h5>
+                            <div class="custom-dropdown">
+                                <button class="dropdown-toggle">Bej<span class="arrow-down"></span></button>
+                                <div class="dropdown-content">
+                                    <a href="#" data-value="roz">Roz</a>
+                                    <a href="#" data-value="mint">Mint</a>
+                                    <a href="#" data-value="gri-orange">Gri-Orange</a>
+                                </div>
+                                <input type="hidden" id="color2" name="color2">
+                            </div>
+                        </div>
+                        <div class="option">
+                            <h5>Mărime:</h5>
+                            <div class="size-selector">
+                                <button class="size-btn">-</button>
+                                <input type="text" class="size-input" value="35">
+                                <button class="size-btn">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-to-cart">Cumpără</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-badge"><h6>Sale</h6></div>
+                <div class="product-image-container">
+                    <img class="product-image" src="void/loferi-galbeni.jpg" alt="Moccasins And Loafers | Musette New Bee 883">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                </div>
+
+                <div class="product-details">
+                    <h4>Loferi</h4>
+                    <h5>Alege cele mai in voga ghete din aceasta vara. Filind din piele naturata iti va oferi comportul dorit. Disponibili in culorile: roz, mint, gri-orange.</h5>
+                    <div class="product-price"><h5>Pret: <span data-name="$160.92">$39.99</span></h5></div>
+                    <div class="star-rating">
+                        <h5>Star-rating: <span class="star">&#9733;&#9733;&#9733;&#9733;<span class="star-half">&#9733;</span></span> 4.5</h5>
+                    </div>
+                    <div class="product-options">
+                        <div class="option">
+                            <h5>Culoare:</h5>
+                            <div class="custom-dropdown">
+                                <button class="dropdown-toggle">Rosu<span class="arrow-down"></span></button>
+                                <div class="dropdown-content">
+                                    <a href="#" data-value="roz">Roz</a>
+                                    <a href="#" data-value="mint">Mint</a>
+                                    <a href="#" data-value="gri-orange">Gri-Orange</a>
+                                </div>
+                                <input type="hidden" id="color2" name="color2">
+                            </div>
+                        </div>
+                        <div class="option">
+                            <h5>Mărime:</h5>
+                            <div class="size-selector">
+                                <button class="size-btn">-</button>
+                                <input type="text" class="size-input" value="35">
+                                <button class="size-btn">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-to-cart">Cumpără</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-badge"><h6>Sale</h6></div>
+                <div class="product-image-container">
+                    <img class="product-image" src="void/pantofi-copii-froggie-din-piele-naturala-verde.jpg" alt="Livie & Luca Frog Toddler Shoes">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                </div>
+
+                <div class="product-details">
+                    <h4>Pantofi froggie</h4>
+                    <h5>Alege cele mai in voga ghete din aceasta vara. Filind din piele naturata iti va oferi comportul dorit. Disponibili in culorile: roz, mint, gri-orange.</h5>
+                    <div class="product-price"><h5>Pret: <span data-name="$49.00">$19.99</span></h5></div>
+                    <div class="star-rating">
+                        <h5>Star-rating: <span class="star">&#9733;&#9733;&#9733;&#9733;<span class="star-half">&#9733;</span></span> 4.5</h5>
+                    </div>
+                    <div class="product-options">
+                        <div class="option">
+                            <h5>Culoare:</h5>
+                            <div class="custom-dropdown">
+                                <button class="dropdown-toggle">Rosu<span class="arrow-down"></span></button>
+                                <div class="dropdown-content">
+                                    <a href="#" data-value="roz">Roz</a>
+                                    <a href="#" data-value="mint">Mint</a>
+                                    <a href="#" data-value="gri-orange">Gri-Orange</a>
+                                </div>
+                                <input type="hidden" id="color2" name="color2">
+                            </div>
+                        </div>
+                        <div class="option">
+                            <h5>Mărime:</h5>
+                            <div class="size-selector">
+                                <button class="size-btn">-</button>
+                                <input type="text" class="size-input" value="35">
+                                <button class="size-btn">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-to-cart">Cumpără</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-badge"><h6>Sale</h6></div>
+                <div class="product-image-container">
+                    <img class="product-image" src="void/ghete.jpg" alt="Centaur set">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                </div>
+
+                <div class="product-details">
+                    <h4>Încalțăminte sportivă - Tituana</h4>
+                    <h5>Alege cele mai in voga ghete din aceasta vara. Filind din piele naturata iti va oferi comportul dorit. Disponibili in culorile: roz, mint, gri-orange.</h5>
+                    <div class="product-price"><h5>Pret: <span data-name="26.99€">$10.99</span></h5></div>
+                    <div class="star-rating">
+                        <h5>Star-rating: <span class="star">&#9733;&#9733;&#9733;&#9733;<span class="star-half">&#9733;</span></span> 4.5</h5>
+                    </div>
+                    <div class="product-options">
+                        <div class="option">
+                            <h5>Culoare:</h5>
+                            <div class="custom-dropdown">
+                                <button class="dropdown-toggle">Alb<span class="arrow-down"></span></button>
+                                <div class="dropdown-content">
+                                    <a href="#" data-value="roz">Roz</a>
+                                    <a href="#" data-value="mint">Mint</a>
+                                    <a href="#" data-value="gri-orange">Gri-Orange</a>
+                                </div>
+                                <input type="hidden" id="color2" name="color2">
+                            </div>
+                        </div>
+                        <div class="option">
+                            <h5>Mărime:</h5>
+                            <div class="size-selector">
+                                <button class="size-btn">-</button>
+                                <input type="text" class="size-input" value="38">
+                                <button class="size-btn">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-to-cart">Cumpără</div>
+                </div>
             </div>
         </div>
-    </div>
+    </main>
 </html>

@@ -1,0 +1,23 @@
+.parent{
+    height: 100vh;
+    width: 600px;
+    justify-content: start;
+    display: grid;
+    border: 10px solid #6d6464;
+}
+.one {
+    background-color: #b2d8d8;
+}
+
+.two {
+    background-color: #66b2b2;
+}
+
+.three {
+    background-color: #008080;
+}
+
+.four {
+    background-color: #006666;
+}
+.five {background-color: #004c4c;}
