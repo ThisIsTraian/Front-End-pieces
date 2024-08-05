@@ -1,20 +1,4 @@
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
- */
-/* @font-face {
-  font-family: "Montserrat", sans-serif;
-  scr: url('Montserrat-Light.ttf');
-  format ('true-type');
-}
-element.style {
-    font-family: "Montserrat", sans-serif;
-    scr: url('Montserrat-Light.ttf');
-    format ('true-type');
-}
-/* <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <link rel="stylesheet" href="style.css"> */
+
 p {
     text-align: justify;
 }
